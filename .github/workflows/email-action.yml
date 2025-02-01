@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v4
 
       # Step 2: Your email-containing step
-      - name: "236520000509@ds.study.litm.ac.in"
+      - name: "23ds2000050@ds.study.iitm.ac.in"
         run: |
           echo "Action step containing email address"
           echo "This step name includes my IITM email"
