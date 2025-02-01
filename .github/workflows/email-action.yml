@@ -1,0 +1,20 @@
+name: Email Verification Action
+on: [push]  # Triggers on any push to the repository
+
+jobs:
+  email-step-job:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Checkout code
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Step 2: Your email-containing step
+      - name: "236520000509@ds.study.litm.ac.in"
+        run: |
+          echo "Action step containing email address"
+          echo "This step name includes my IITM email"
+
+      # Optional: Add more steps
+      - name: Success Message
+        run: echo "Workflow completed successfully!"
